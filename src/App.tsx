@@ -15,7 +15,7 @@ export default function CrochetApp() {
     () => ["教學介紹", "課程價目表", "預約須知", "常見問題", "我的預約", "聯絡方式"],
     []
   );
-  const [activeTab, setActiveTab] = useState<(typeof tabs)[number]>("教學介紹");
+  const [activeTab, setActiveTab] = useState("教學介紹");
 
   return (
     <div className="min-h-screen bg-white text-[#4b3621] font-sans">
