@@ -2,317 +2,98 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <title>clouds｜一鉤一引，療癒自己</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    :root {
-      --bg:#FBF7F0;--card:#F7F1E6;--text:#3B2F2A;--muted:#6B5B53;
-      --line:#E0D6C8;--accent:#2F6EA0;--chip:#EFE6D8;
-    }
-    body{margin:0;font-family:"Microsoft JhengHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
-    header{padding:48px 20px 28px;text-align:center}
-    header h1{margin:0;font-family:"Times New Roman",serif;font-size:36px;letter-spacing:1px}
-    header p{margin-top:8px;color:var(--muted)}
-    .container{max-width:1040px;margin:auto;padding:0 20px 60px}
-    .card{background:var(--card);border-radius:20px;padding:32px;margin-bottom:36px;box-shadow:0 6px 16px rgba(0,0,0,.05)}
-    h2{font-family:"Times New Roman",serif;margin:0 0 6px}
-    .sub{margin:0;color:var(--muted)}
-    .package{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
-    .pkg-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .pkg-head h3{margin:0;font-size:18px}
-    .badge{font-size:13px;padding:6px 10px;border-radius:999px;background:var(--chip);white-space:nowrap}
-    ul{padding-left:20px;margin:10px 0 14px}
-    .gallery{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 10px}
-    .shot{flex:0 0 260px;scroll-snap-align:start;border-radius:16px;background:var(--chip);border:1px dashed #D9CDBB;height:170px;display:flex;align-items:center;justify-content:center}
-    .ph{text-align:center;font-size:14px;color:var(--muted);padding:10px}
-    .ph span{color:var(--text);font-weight:700}
-    .igline{display:flex;align-items:center;gap:10px;margin-top:8px;flex-wrap:wrap}
-    .igicon{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#E7DCCB;font-size:12px}
-    a.ig{color:var(--accent);text-decoration:none;font-weight:800}
-    a.ig:hover{text-decoration:underline}
-    .note{font-size:14px;color:var(--muted);margin-top:14px}
-    .cta{text-align:center;margin-top:44px}
-    .cta button{background:var(--accent);color:#fff;border:none;padding:16px 32px;border-radius:999px;font-size:16px}
-    footer{text-align:center;font-size:14px;color:#7A6A62;padding:40px 20px 20px}
-  </style>
+<meta charset="UTF-8">
+<title>clouds｜一鉤一引，療癒自己</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;
+background:#faf7f2;color:#3b2f2a;margin:0;line-height:1.8}
+header{padding:48px 20px;text-align:center}
+section{max-width:1000px;margin:0 auto 48px;padding:0 20px}
+.card{background:#fff;border-radius:20px;padding:32px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+h1,h2{margin-top:0}
+.btn{display:inline-block;padding:14px 22px;border-radius:999px;text-decoration:none}
+.primary{background:#6b4f3b;color:#fff}
+.ghost{border:1px solid #6b4f3b;color:#6b4f3b}
+.warn{background:#fff3cd;padding:16px;border-radius:12px;margin:16px 0}
+label{display:block;margin-top:14px}
+input,select,textarea{width:100%;padding:10px;margin-top:6px}
+.success{display:none;background:#e7f6ec;padding:16px;border-radius:12px;margin-top:16px}
+</style>
 </head>
 <body>
+
 <header>
-  <h1>一鉤一引，療癒自己</h1>
-  <p>not perfect but only</p>
+<h1>clouds</h1>
+<p>一鉤一引，療癒自己</p>
 </header>
 
-<div class="container">
-  <section class="card">
-    <h2>課程包款</h2>
-    <p class="sub">從完成一個作品，到學會帶著走的能力</p>
-  </section>
+<section class="card">
+<h2 id="reserve">我要預約</h2>
 
-  <section class="card">
-    <h2>初階課程包款｜$2460（線上折 $100）</h2>
-    <p class="sub">原價 $3000｜課程價 $2460（線上再折 $100）｜難度 ★★～★★★</p>
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>水桶包</h3>
-          <span class="badge">★★</span>
-        </div>
-        <ul><li>學習圓形包底，能學到多個基礎針法與藏線方式</li>
-<li>可加購學習長肩帶，一包多個背法</li>
-<li>可延伸應用：收納籃／飲料提袋／水桶包／杯墊等</li></ul>
-
-      <div class="gallery" aria-label="水桶包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【水桶包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【水桶包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【水桶包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【水桶包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDUwNDE0NjcxNjYyNTM1?story_media_id=3298155487019265536&igsh=ZGVuN3VjZjVpaTlh" target="_blank" rel="noreferrer">前往 Instagram 精選限動（水桶包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>網格包</h3>
-          <span class="badge">★★</span>
-        </div>
-        <ul><li>實用頻率極高，橢圓形包底與加針邏輯</li>
-<li>能學到多個基礎針法與藏線方式</li>
-<li>可加購學習長肩帶；可延伸應用：收納籃／髮夾等</li></ul>
-
-      <div class="gallery" aria-label="網格包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【網格包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【網格包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【網格包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【網格包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDU2OTE2NjI4NTMxMjQx?story_media_id=3346521990683774997&igsh=MTFsZGF1dWFzcTlpaA%3D%3D" target="_blank" rel="noreferrer">前往 Instagram 精選限動（網格包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>韓系抽繩包</h3>
-          <span class="badge">★★</span>
-        </div>
-        <ul><li>精美細緻的一款包，重複單一針法，把針法練到非常熟練</li>
-<li>耗時較長；初學者建議從小尺寸開始（課堂決定鉤織大小）</li>
-<li>放入物品後包型會變；應用：化妝包／手提包</li></ul>
-
-      <div class="gallery" aria-label="韓系抽繩包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【韓系抽繩包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【韓系抽繩包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【韓系抽繩包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【韓系抽繩包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4NDM1Mjg4OTc2MDA3MDYz?story_media_id=3306708181577107387&igsh=M2h1bDN6azRlaGFw" target="_blank" rel="noreferrer">前往 Instagram 精選限動（韓系抽繩包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>手提包</h3>
-          <span class="badge">★★</span>
-        </div>
-        <ul><li>經典扎實紋路，橢圓包底</li>
-<li>學到多個基礎針法＋手把縫合</li>
-<li>可加購學習長肩帶，一包多個背法</li></ul>
-
-      <div class="gallery" aria-label="手提包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【手提包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【手提包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【手提包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【手提包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4NDQ0MDI1ODY3MDI1MDE2?story_media_id=3393736738059806344&igsh=OWM2ZjRhdmt0OGdp" target="_blank" rel="noreferrer">前往 Instagram 精選限動（手提包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>方包</h3>
-          <span class="badge">★★★</span>
-        </div>
-        <ul><li>難度★★★：針法固定但辨識度較高，需要耐心適應</li>
-<li>特殊包底，放了物品完全不會變形</li>
-<li>學鉤織肩帶＋縫合五金；材料包附 50 公分肩帶，可加購線材鉤長肩帶</li></ul>
-
-      <div class="gallery" aria-label="方包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【方包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【方包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【方包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【方包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDE5MjcyMjMwMjUxNjU2?story_media_id=3298781663622532722&igsh=MXh0NTZva3Y5cHg3Yg==" target="_blank" rel="noreferrer">前往 Instagram 精選限動（方包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>法棍包</h3>
-          <span class="badge">★★★</span>
-        </div>
-        <ul><li>難度★★★：基礎針法，但手混線使針目辨識不易</li>
-<li>建議有鉤針基礎或上過一堂 CLOUDS 課程的同學</li>
-<li>需要一些時間適應線材與針目辨識</li></ul>
-
-      <div class="gallery" aria-label="法棍包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【法棍包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【法棍包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【法棍包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【法棍包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDU3NzA4OTcwOTk1NTM3?igsh=eWM4cTgzeG5iNDJo" target="_blank" rel="noreferrer">前往 Instagram 精選限動（法棍包）</a>
-      </div>
-
-      </div>
-
-    <p class="note">可依包款、材料或加購項目調整最終金額，實際費用於預約確認時說明。</p>
-  </section>
-
-  <section class="card">
-    <h2>進階課程包款</h2>
-    <p class="sub">原價 $3000｜課程價 $2460（牛角包除外）</p>
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>撞色托特包</h3>
-          <span class="badge">原價 $3000｜$2460</span>
-        </div>
-        <ul><li>教如何換色鉤織，換色技巧一次學會</li>
-<li>三角手把的製作與縫合技巧</li>
-<li>一開始先學習長 25 的尺寸</li></ul>
-
-      <div class="gallery" aria-label="撞色托特包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【撞色托特包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【撞色托特包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【撞色托特包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【撞色托特包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODg4MzgwNzAxMjEyNDQ0?story_media_id=3326953373768901347&igsh=MXVvc2N1bmtoaG5kMw==" target="_blank" rel="noreferrer">前往 Instagram 精選限動（撞色托特包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>菜籃子包</h3>
-          <span class="badge">原價 $3000｜$2460</span>
-        </div>
-        <ul><li>精美紋路：紋路的鉤針邏輯一次教會你</li>
-<li>隱形縫合手把、跳色鉤織</li>
-<li>一開始先學習手提尺寸，可加購線材放大包款</li></ul>
-
-      <div class="gallery" aria-label="菜籃子包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【菜籃子包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【菜籃子包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【菜籃子包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【菜籃子包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/stories/highlights/18029236337102901/" target="_blank" rel="noreferrer">前往 Instagram 精選限動（菜籃子包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>毛茸茸手提包</h3>
-          <span class="badge">原價 $3000｜$2460</span>
-        </div>
-        <ul><li>毛茸茸線材幾乎是盲鉤，但非常可愛的一款冬季包包</li>
-<li>帶在身上真的會暖和</li>
-<li>建議具備鉤針基礎再來挑戰更順手</li></ul>
-
-      <div class="gallery" aria-label="毛茸茸手提包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【毛茸茸手提包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【毛茸茸手提包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【毛茸茸手提包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【毛茸茸手提包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDAwOTYzNjgzNjE2MDg1?story_media_id=3261820118455812741&igsh=YWtpOXR1dnNlb2Vo" target="_blank" rel="noreferrer">前往 Instagram 精選限動（毛茸茸手提包）</a>
-      </div>
-
-      </div>
-
-
-      <div class="package">
-        <div class="pkg-head">
-          <h3>牛角包</h3>
-          <span class="badge">原價 $3200｜特價 $2860</span>
-        </div>
-        <ul><li>需有鉤針經驗才能學習</li>
-<li>使用特殊加針邏輯，鉤出完美弧度的包型</li>
-<li>手把的鉤針原理可以自行變換，放了物品整顆包更美</li></ul>
-
-      <div class="gallery" aria-label="牛角包 圖片輪播（可左右滑動）">
-        <div class="shot"><div class="ph">【牛角包 照片 1】<br><span>完成作品照</span></div></div>
-        <div class="shot"><div class="ph">【牛角包 照片 2】<br><span>上課/學員鉤織中</span></div></div>
-        <div class="shot"><div class="ph">【牛角包 照片 3】<br><span>細節特寫（紋路/藏線/五金）</span></div></div>
-        <div class="shot"><div class="ph">【牛角包 照片 4】<br><span>延伸應用/對比（可選）</span></div></div>
-      </div>
-
-
-      <div class="igline">
-        <span class="igicon">↗</span>
-        <a class="ig" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTczNjMyNjIxNzc0NTkz?igsh=emN0aDRhdWZ4OGgy" target="_blank" rel="noreferrer">前往 Instagram 精選限動（牛角包）</a>
-      </div>
-
-      </div>
-
-  </section>
-
-  <div class="cta"><button>查看時段・我要預約</button></div>
+<div class="warn">
+<b>重要提醒</b><br>
+請先完成 Google Calendar 時段預約，再填寫表單。
 </div>
 
-<footer>© clouds knitting · 一鉤一引，療癒自己</footer>
+<p>
+<a class="btn primary" target="_blank"
+href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2biCiq4zA6EqUelFozJf1tMLMXvhAjiEGxx9yWsFWkzMKcsMJKNE4yil4AekfXVQTi76-TWJIY">
+① 先選時段（Google 預約）</a>
+</p>
+
+<form id="bookingForm">
+<label>姓名
+<input required></label>
+
+<label>Email
+<input type="email" required></label>
+
+<label>手機
+<input required></label>
+
+<label>課程等級
+<select id="level" required>
+<option value="">請選擇</option>
+<option value="b">初階</option>
+<option value="a">進階</option>
+</select></label>
+
+<label>包款
+<select id="package" required>
+<option value="">請先選課程等級</option>
+</select></label>
+
+<label>
+<input type="checkbox" required> 我已完成 Google Calendar 時段預約
+</label>
+
+<button class="btn primary" type="submit">送出預約</button>
+
+<a class="btn ghost" target="_blank"
+href="https://line.me/R/ti/p/@clouds">加入官方 LINE 完成確認</a>
+
+<div class="success" id="ok">
+已送出，請加入官方 LINE 私訊姓名＋包款＋匯款後五碼。
+</div>
+</form>
+</section>
+
+<script>
+const beginner=["水桶包","網格包","韓系抽繩包","手提包","方包","法棍包"];
+const advanced=["撞色托特包","菜籃子包","毛茸茸手提包","牛角包"];
+const level=document.getElementById("level");
+const pkg=document.getElementById("package");
+level.onchange=()=>{
+pkg.innerHTML="";
+(level.value==="b"?beginner:advanced).forEach(n=>{
+const o=document.createElement("option");o.text=n;pkg.add(o);
+});
+}
+document.getElementById("bookingForm").onsubmit=e=>{
+e.preventDefault();document.getElementById("ok").style.display="block";
+}
+</script>
+
 </body>
 </html>
